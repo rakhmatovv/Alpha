@@ -1,0 +1,163 @@
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="preconnect" href="https://fonts.gstastic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/bulma.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bulma.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/tabs.css' %}">
+    <link rel="stylesheet" href="{% static 'css/font-awesome.css' %}">
+    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+    <script src="https://kit.fontawesome.com/a574d8f93f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class=" header_1">
+    <div class="hero">
+        <nav>
+            <a href="" class="logo">Luxe</a>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Hotels</a>
+                    <ul class="dropdown">
+                        <li><a href="">Luxe hotel</a></li>
+                        <li><a href="">Deluxe hotel</a></li>
+                        <li><a href="">Bora hotel</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Blog</a></li>
+            </ul>
+        </nav>
+    </div>
+</section>
+<nav class="level" style="height: 170px">
+    <div class="level-item has-text-centered">
+        <div>
+            <p class="title">20356</p>
+            <p class="heading">USER ACCESS</p>
+        </div>
+    </div>
+    <div class="level-item has-text-centered">
+        <div>
+            <p class="title">15501</p>
+            <p class="heading">HOTELS</p>
+        </div>
+    </div>
+    <div class="level-item has-text-centered">
+        <div>
+            <p class="title">8200</p>
+            <p class="heading">TRANSACTIONS</p>
+        </div>
+    </div>
+    <div class="level-item has-text-centered">
+        <div>
+            <p class="title">8763</p>
+            <p class="heading">RATING & REVIEW</p>
+        </div>
+    </div>
+</nav>
+<section class="section section_feature">
+    <div class="container">
+        <h1 class="text1_feature">Feeature hotel</h1>
+    </div>
+    <br><br>
+    <div class=" box_feature">
+        <div class="columns is-vcentered">
+            <div class="column ">
+                <div class="card-image">
+                    <figure class="image">
+                        <img src="{% static 'images/hotel.room.1.jpg' %}" alt="error" class="ml-3">
+                    </figure>
+                </div>
+            </div>
+            <div class="column"><h1 class="title">lorem</h1>
+                <p class="subtitle pt-4">Pellentesque habitant morbi tristique senectus et netus ett mauada fames ac
+                    turpis egestas. Etiam euismod tempor leo, in suscipit urna condimentum sed. Vivamus augue enim,
+                    consectetur ac interdum a, pulvinar ac massa. Nullam malesuada congue. Lorem ipsum dolor sit amet.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, suscipit.</p><br>
+                <a href="" class="btn_book">Booking now </a>
+            </div>
+        </div>
+    </div>
+    <div class="box_feature">
+        <div class="columns is-vcentered">
+            <div class="column is-2 ml-5 is-fluid">
+                <div class="card-image">
+                    <img src="{% static '/images/hotel.room.3.jpg' %}" alt=""></div>
+            </div>
+            <div class="column mr-2 is-3"><h1 class="title">lorem</h1>
+                <p class="subtitle">Pellentesque habitant morbi tristique senectus et netus ett mauada fames ac turpis
+                    egestas. Etiam
+                    euismod tempor leo, in suscipit urna condimentum sed.</p>
+                <a href="" class="btn_book ">Booking now</a>
+            </div>
+            <div class="column is-2  ml-6">
+                <div class="card-image">
+                    <img src="{% static '/images/hotel.room.3.jpg' %}" alt="error"></div>
+            </div>
+            <div class="column is-3"><h1 class="title">lorem</h1>
+                <p class="subtitle">Pellentesque habitant morbi tristique senectus et netus ett mauada fames ac turpis
+                    egestas. Etiam
+                    euismod tempor leo, in suscipit urna condimentum sed.</p>
+                <a href="" class="btn_book">Booking now</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="section">
+    <div class="container">
+        <header> HOTEL FACILITIES</header>
+        <div class="hero1">
+            <div class=btn_box>
+                <button><i class="fa fa-cutlery" aria-hidden="true"></i>
+                    Restaurant
+                </button>
+                <button>
+                    <i class="fa fa-glass" aria-hidden="true"></i>Bar
+                </button>
+                <button><i class="fa fa-car" aria-hidden="true"></i>
+                    <br> Pick up
+                </button>
+                <button><i class=" fa fa-solid fa-person-swimming"></i> Swimming pool</button>
+                <button>
+                    <i class=" fa fa-sharp fa-solid fa-spa"></i>Spa
+                </button>
+                <button>
+                    <i class=" fa fa-solid fa-dumbbell"></i> Gym
+                </button>
+            </div>
+            <div class="content">
+                <div class="content-left">
+                    <img src="{% static '/images/tabs2.jpg' %}" alt="" height="5000">
+                </div>
+                <div class="content-right ml-6">
+                    <h4 class="has-text-weight-medium has-text-grey-light">World Class</h4>
+                    <h1>lorem</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda commodi nulla tempore. Cum
+                        illum maiores officia omnis tempore. Commodi dolorem libero quaerat ratione rem saepe sapiente
+                        sed, voluptas? Autem, eveniet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
+                        accusamus aperiam architecto cumque deleniti dolore ex expedita, fugit id inventore magni modi
+                        nobis nostrum ratione saepe suscipit ut veniam voluptates. Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Consectetur ducimus fuga, minima nisi nulla quas saepe sint
+                        voluptas. Alias est nemo nobis odio praesentium quae quas rem repudiandae sit voluptatum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi beatae eos esse et
+                        exercitationem, iste maiores minus nam necessitatibus, numquam, quae quasi qui repudiandae sed
+                        sequi ullam ut voluptas Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae,
+                        quam.</p>
+
+                    <strong>7:30 AM - 8:00 PM</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
